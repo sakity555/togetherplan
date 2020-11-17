@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 25px 15px;
+    background-color: #FCF7E4;
+}
+
+div {
+    padding: 40px 15px;
+}
+
+footer {
+    padding: 25px 15px;
+    background-color: #FCF7E4;
+}
