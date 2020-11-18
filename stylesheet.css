@@ -11,6 +11,20 @@ header {
 
 div {
     padding: 40px 15px;
+    background-color: #eeeae4;
+}
+
+@media only screen and (max-width: 780px)
+.sub_banner {
+    padding: 0 5% 10% 5%;
+}
+.sub_banner {
+    width: 100%;
+    margin-top: 5em;
+}
+.container li {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
 }
 
 footer {
