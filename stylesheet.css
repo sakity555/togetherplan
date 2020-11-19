@@ -8,23 +8,35 @@ header {
     padding: 25px 15px;
     background-color: #FCF7E4;
 }
+#home {
+    background-image: url(images/main.jpeg);
+    min-height: 100vh;
+}
+.main-content {
+    text-align: center;
+    margin-top:  10%;
+    color: whitesmoke;
+}
 
 div {
     padding: 40px 15px;
     background-color: #eeeae4;
 }
 
-@media only screen and (max-width: 780px)
-.sub_banner {
-    padding: 0 5% 10% 5%;
-}
 .sub_banner {
     width: 100%;
     margin-top: 5em;
+    padding: 0 5% 10% 5%;
 }
-.container li {
+.clearfix ul {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: 200px 300px;
+    list-style: none;
+}
+li {
+padding: 10px;
 }
 
 footer {
