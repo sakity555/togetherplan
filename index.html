@@ -5,13 +5,26 @@
     <meta charset="UTF-8">
     <title>旅プラン</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
 <header>
-    togetherplan
+    <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">ここに中身を入れる</div>
+    </div>
+    <div class="logo">
+        <img src="images/logo.jpg">
+    </div>
+    <form id="form1" action="#" method="get">
+        <input id="sbox1" id="s" name="s" type="text" placeholder="キーワードを入力" />
+        <button type="submit" id="sbtn2"><i class="fas fa-search"></i></button>
+    </form>
 </header>
 
 <div class="main-content wrapper">
@@ -51,6 +64,22 @@
         </a>
     </div>
 </div>
+<!--ユーザーカード模索中
+<div calss="welcome-index_popular-users">
+    <div class="users-list-card">
+        <h class="users-list-card_item">TOP USERS</h>
+        <ul class="users-list-card_list">
+            <li class="users-list-card__item">
+                <a class="users-list-card__link" href="#">
+
+                </a>
+
+            </li>
+
+        </ul>
+    </div>
+</div>
+-->
 
 <footer>
 ©togetherplan
