@@ -9,6 +9,7 @@ header {
     background-color: #FCF7E4;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 #nav-drawer {
@@ -85,6 +86,10 @@ header {
 
 .logo {
     mix-blend-mode: multiply;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -152,16 +157,22 @@ header {
       text-align: center;
     }
 .grid {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 0;
 }
 .item {
-  text-align: center;
+  width: 30%;
+  margin: 10px 0 0 10px;
 }
-
+.item:nth-of-type(3n-2) {
+   margin-left: 0px;
+}
+.item img {
+  width: 100%;
+  height: auto;
+}
 
   .l-wrapper {
     margin: auto;
@@ -250,4 +261,5 @@ header {
 footer {
     padding: 25px 15px;
     background-color: #FCF7E4;
+    text-align: center;
 }
